@@ -185,9 +185,9 @@ a.sidebar-link:hover{
   }
   
   form {
-    max-width: 1000px ;
-    margin: 10px auto;
-    padding: 100px 100px;
+    /* max-width: 3000px !important; */
+    /* margin: 10px auto; */
+    padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
   }
@@ -228,12 +228,11 @@ a.sidebar-link:hover{
     margin: 0 4px 8px 0;
   }
   
-  select {
+  /* select {
     padding: 6px;
     height: 32px;
     border-radius: 2px;
-  }
-  
+  } */
   .button-mode {
     /* padding: 19px 39px 18px 39px; */
     color: #FFF;
@@ -541,79 +540,34 @@ a.sidebar-link:hover{
 
 
 
+/* card not have head */
 
-/* start border */
+span{
+  font-size:15px;
+}
+a{
+text-decoration:none; 
+color: #0062cc;
+border-bottom:2px solid #0062cc;
 
 
+}
+.box{
+  /* padding:60px 0px; */
 
-
-
-
-
-.border-left-primary {
-  border-left: 0.25rem solid #4e73df !important;
 }
 
-.border-bottom-primary {
-  border-bottom: 0.25rem solid #4e73df !important;
+.box-part{
+  background:#FFF;
+  border-radius:0;
+  /* padding:60px 10px;
+  margin:30px 0px; */
+}
+.text{
+  margin:20px 0px;
 }
 
-.border-left-secondary {
-  border-left: 0.25rem solid #858796 !important;
+.fa{
+   color:#4183D7;
 }
-
-.border-bottom-secondary {
-  border-bottom: 0.25rem solid #858796 !important;
-}
-
-.border-left-success {
-  border-left: 0.25rem solid #1cc88a !important;
-}
-
-.border-bottom-success {
-  border-bottom: 0.25rem solid #1cc88a !important;
-}
-
-.border-left-info {
-  border-left: 0.25rem solid #36b9cc !important;
-}
-
-.border-bottom-info {
-  border-bottom: 0.25rem solid #36b9cc !important;
-}
-
-.border-left-warning {
-  border-left: 0.25rem solid #f6c23e !important;
-}
-
-.border-bottom-warning {
-  border-bottom: 0.25rem solid #f6c23e !important;
-}
-
-.border-left-danger {
-  border-left: 0.25rem solid #e74a3b !important;
-}
-
-.border-bottom-danger {
-  border-bottom: 0.25rem solid #e74a3b !important;
-}
-
-.border-left-light {
-  border-left: 0.25rem solid #f8f9fc !important;
-}
-
-.border-bottom-light {
-  border-bottom: 0.25rem solid #f8f9fc !important;
-}
-
-.border-left-dark {
-  border-left: 0.25rem solid #5a5c69 !important;
-}
-
-.border-bottom-dark {
-  border-bottom: 0.25rem solid #5a5c69 !important;
-}
-
-
-/* end border */
 

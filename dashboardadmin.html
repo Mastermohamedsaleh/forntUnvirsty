@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+
+    <!-- font -->
+    <script
+      src="https://kit.fontawesome.com/c1ef89d5e0.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- bootstrap 5 links (CDN) -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+
+
+<!-- 
+    <link rel="stylesheet" href="Styles/bootstrap.min">
+    <link rel="stylesheet" href="Styles/bootstrap.min.css"> -->
+
+
+    <link rel="stylesheet" href="Styles/style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+
+    <!-- <script src="bootstrap.bundle.min"></script>
+    <script src="bootstrap.bundle.min.js"></script> -->
+
+    <script src="Script/script.js" defer></script>
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+    <div class="wrapper">
+
+
+
+
+      <aside id="sidebar" class="js-sidebar"><!-- side bar content-->
+        
+      <div class="h-100">
+
+
+            <div class="sidebar-logo">
+                <a href="#"><i class="fa-brands fa-uniregistry" style="font-size: 40px;"></i> UNVIRSTY </a>
+            </div>
+
+            
+
+            <ul class="sidebar-nav">
+
+                <li class="sidebar-header">
+                    Admin elements
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="dashboardadmin.html" class="sidebar-link"><i class="fa-solid fa-list" style="padding: 0 10px 0  0"></i>Dashboard</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link"><i style="padding: 0 10px 0  0" class="fa-solid fa-lock"></i>Admin</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="college.html" class="sidebar-link"><i style="padding: 0 10px 0  0" class="fa-solid fa-building-columns"></i>College</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="classroom.html" class="sidebar-link"><i style="padding: 0 10px 0  0"  class="fa-solid fa-graduation-cap"></i>Classroom</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="section.html" class="sidebar-link"><i style="padding: 0 10px 0  0" class="fa-solid fa-section"></i>Section</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="course.html" class="sidebar-link"><i class="fa-brands fa-discourse" style="padding: 0 10px 0  0"></i>Course</a>
+                </li>
+        
+                <li class="sidebar-item">
+                    
+                  <a href="#" class="sidebar-link collapsed" data-bs-target="#student" data-bs-toggle="collapse" area-expanded="false"><i class="fa-solid fa-graduation-cap"></i> Student <i class="fa-solid fa-chevron-down float-end"></i></a>
+
+                    <ul id="student" class="sidebar-dropdown list-unstyled collapse">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">All Student</a>
+                            <a href="#" class="sidebar-link">Add Student</a>
+                            <a href="#" class="sidebar-link">Promotion Student</a>
+                            <a href="#" class="sidebar-link">Graduated Student</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="sidebar-item">
+                    
+                  <a href="#" class="sidebar-link collapsed" data-bs-target="#Doctor" data-bs-toggle="collapse" area-expanded="false"><i class="fa-solid fa-person-chalkboard"></i> Doctor <i class="fa-solid fa-chevron-down float-end"></i></a>
+
+                    <ul id="Doctor" class="sidebar-dropdown list-unstyled collapse">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">All Doctor</a>
+                            <a href="#" class="sidebar-link">Add Doctor</a>
+           
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li class="sidebar-item">
+                    
+                  <a href="#" class="sidebar-link collapsed" data-bs-target="#Schedule" data-bs-toggle="collapse" area-expanded="false"><i class="fa-solid fa-calendar-days"></i> Schedule <i class="fa-solid fa-chevron-down float-end"></i></a>
+
+                    <ul id="Schedule" class="sidebar-dropdown list-unstyled collapse">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Exam Schedule</a>
+                            <a href="#" class="sidebar-link">Study Schedule</a>
+           
+                        </li>
+                    </ul>
+
+                </li>
+                
+       
+                <li class="sidebar-item">
+                    <a href="setting.html" class="sidebar-link"><i class="fa-solid fa-gears" style="padding: 0 10px 0  0"></i> Setting</a>
+                </li>
+
+       
+   
+                  </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>    
+    </aside>
+
+
+      <div class="main">
+
+
+        <nav class="navbar navbar-expand px3 border-bottom">
+
+
+          <button class="btn" id="sidebar-toggle" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="#" data-bs-toggle="dropdown" class="navbar-icon pe-md-0">
+                    <h5 class="text-primary"><i class="fa-solid fa-user"></i> Admin <i class="fa-solid fa-caret-down"></i></h5>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a href="#" class="dropdown-item">Profile</a>
+                    <a href="#" class="dropdown-item">Setting</a>
+                    <a href="#" class="dropdown-item">Log out</a>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </nav>
+
+        <!-- main -->
+
+    
+
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+
+                    <div class="card-box bg-blue">
+
+                        <div class="inner">
+                            <h3> 13436 </h3>
+                            <p> Student Strength </p>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        
+                        <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+
+                </div>
+        
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card-box bg-green">
+                        <div class="inner">
+                            <h3> ₹18 </h3>
+                            <p> College </p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                        <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card-box bg-orange">
+                        <div class="inner">
+                            <h3> 22 </h3>
+                            <p> New Admissions </p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </div>
+                        <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card-box bg-red">
+                        <div class="inner">
+                            <h3> 72 </h3>
+                            <p> Classroom </p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+     
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+      
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>
